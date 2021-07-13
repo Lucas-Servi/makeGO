@@ -1,7 +1,7 @@
 makeGO
 ==========
 
-Plot Fold Enrichment (FE) from the PantherDB GO output.
+Plot Fold Enrichment (FE) from the PantherDB (http://go.pantherdb.org/index.jsp) GO output.
 
 ## How to use the script
 
