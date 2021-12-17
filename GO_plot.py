@@ -4,6 +4,8 @@ import itertools
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+
+# Avoid chained_assignment warning when working on slices of dataframes
 pd.set_option('mode.chained_assignment', None)
 
 
@@ -18,6 +20,7 @@ def plot_scat(df):
                loc='center left', bbox_to_anchor=(1.25, 0.5), ncol=1)
     return ax
 
+
 def filter_FRD (df_in, name, top=10, FDR = 0.01):
     df = df_in
     df.rename(columns={df.columns[5]: "Fold Enrichment"}, inplace=True)
@@ -28,7 +31,7 @@ def filter_FRD (df_in, name, top=10, FDR = 0.01):
     df["FDR"] = pd.to_numeric(df["FDR"], downcast="float")
     df["Fold Enrichment"] = pd.to_numeric(df["Fold Enrichment"], downcast="float")
     df = df[(df['FDR'] < FDR)]
-
+    
     #Fold Enrichment for FE < 1  transformation for query
     df_temp = df.copy()
     df_temp['Fold Enrichment'][(df_temp['(over/under)'] == '-')] = 1 / df_temp['Fold Enrichment'][(df_temp['(over/under)'] == '-')]
@@ -53,8 +56,8 @@ def table_join (files, set_names, top, FDR):
     return df
 
 
-
 def parse_arguments():
+    # Handles terminal commands
     """parses all necessary arguments"""
     parser = argparse.ArgumentParser()
     parser.add_argument("-i", dest="Input_files", action='append', nargs='+',
@@ -69,21 +72,19 @@ def parse_arguments():
                         help="Output directory, name preffix can be added.")
     return parser.parse_args()
 
+
 def main():
     print("Loading tables...")
     args = parse_arguments()
     top = args.top_FE
     FDR = args.fdr
-
     filt_df = table_join(args.Input_files[0],args.set_names[0],top,FDR)
-
     outdir = args.output_file[0] + "_GO.pdf"
     print("Creating Plot in " + outdir)
     ax = plot_scat(filt_df)
     plt.savefig(outdir, dpi=300, bbox_inches="tight")
     plt.show()
 
-
-
+    
 if __name__ == "__main__":
     main()
