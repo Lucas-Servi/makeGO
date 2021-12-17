@@ -1,0 +1,110 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20210224)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.5228828 Released 2021-08-18
+Analyzed List:	genelist_intersec (Arabidopsis thaliana)	There are duplicate IDs in the file. The unique set of IDs will be used.
+Reference List:	Arabidopsis thaliana (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+GO cellular component complete	Arabidopsis thaliana - REFLIST (27462)	genelist_intersec (702)	genelist_intersec (expected)	genelist_intersec (over/under)	genelist_intersec (fold Enrichment)	genelist_intersec (raw P-value)	genelist_intersec (FDR)
+RISC complex (GO:0016442)	2	2	.05	+	39.12	3.60E-03	4.01E-02
+clathrin complex (GO:0071439)	2	2	.05	+	39.12	3.60E-03	3.97E-02
+RNAi effector complex (GO:0031332)	2	2	.05	+	39.12	3.60E-03	3.93E-02
+photosystem II reaction center (GO:0009539)	10	7	.26	+	27.38	9.08E-08	3.80E-06
+1,3-beta-D-glucan synthase complex (GO:0000148)	12	6	.31	+	19.56	3.37E-06	9.30E-05
+plastid large ribosomal subunit (GO:0000311)	15	7	.38	+	18.26	7.14E-07	2.34E-05
+plastid ribosome (GO:0009547)	30	12	.77	+	15.65	2.92E-10	1.53E-08
+plastid small ribosomal subunit (GO:0000312)	13	5	.33	+	15.05	6.21E-05	1.18E-03
+U2AF complex (GO:0089701)	8	3	.20	+	14.67	2.19E-03	2.49E-02
+plasma membrane protein complex (GO:0098797)	38	10	.97	+	10.29	2.42E-07	9.37E-06
+organellar small ribosomal subunit (GO:0000314)	29	6	.74	+	8.09	2.06E-04	3.12E-03
+photosystem II (GO:0009523)	44	9	1.12	+	8.00	5.87E-06	1.54E-04
+Golgi-associated vesicle membrane (GO:0030660)	32	6	.82	+	7.33	3.28E-04	4.84E-03
+organellar ribosome (GO:0000313)	77	13	1.97	+	6.60	3.62E-07	1.26E-05
+photosystem (GO:0009521)	63	10	1.61	+	6.21	1.31E-05	3.12E-04
+stromule (GO:0010319)	38	6	.97	+	6.18	7.40E-04	9.56E-03
+organellar large ribosomal subunit (GO:0000315)	46	7	1.18	+	5.95	3.30E-04	4.80E-03
+transport vesicle membrane (GO:0030658)	44	6	1.12	+	5.33	1.47E-03	1.73E-02
+vesicle coat (GO:0030120)	54	7	1.38	+	5.07	7.87E-04	9.93E-03
+coated vesicle membrane (GO:0030662)	70	9	1.79	+	5.03	1.53E-04	2.63E-03
+membrane coat (GO:0030117)	70	9	1.79	+	5.03	1.53E-04	2.59E-03
+coated membrane (GO:0048475)	70	9	1.79	+	5.03	1.53E-04	2.55E-03
+Golgi-associated vesicle (GO:0005798)	47	6	1.20	+	4.99	1.99E-03	2.29E-02
+plastid nucleoid (GO:0042646)	55	6	1.41	+	4.27	4.07E-03	4.35E-02
+nuclear body (GO:0016604)	101	10	2.58	+	3.87	4.67E-04	6.43E-03
+cytoplasmic vesicle membrane (GO:0030659)	142	13	3.63	+	3.58	1.44E-04	2.55E-03
+vesicle membrane (GO:0012506)	146	13	3.73	+	3.48	1.85E-04	2.85E-03
+nuclear envelope (GO:0005635)	115	10	2.94	+	3.40	1.18E-03	1.42E-02
+plasmodesma (GO:0009506)	939	76	24.00	+	3.17	1.32E-17	3.45E-15
+cell-cell junction (GO:0005911)	939	76	24.00	+	3.17	1.32E-17	2.76E-15
+symplast (GO:0055044)	939	76	24.00	+	3.17	1.32E-17	2.30E-15
+anchoring junction (GO:0070161)	939	76	24.00	+	3.17	1.32E-17	1.97E-15
+cell junction (GO:0030054)	940	76	24.03	+	3.16	1.39E-17	1.82E-15
+spliceosomal complex (GO:0005681)	161	13	4.12	+	3.16	4.45E-04	6.22E-03
+coated vesicle (GO:0030135)	124	10	3.17	+	3.15	1.99E-03	2.31E-02
+plastid stroma (GO:0009532)	727	57	18.58	+	3.07	6.43E-13	3.96E-11
+chloroplast stroma (GO:0009570)	715	53	18.28	+	2.90	3.04E-11	1.67E-09
+mitochondrial matrix (GO:0005759)	136	10	3.48	+	2.88	3.70E-03	4.00E-02
+vacuolar membrane (GO:0005774)	250	18	6.39	+	2.82	1.51E-04	2.64E-03
+photosynthetic membrane (GO:0034357)	395	27	10.10	+	2.67	9.14E-06	2.22E-04
+thylakoid membrane (GO:0042651)	390	26	9.97	+	2.61	2.00E-05	4.54E-04
+trans-Golgi network (GO:0005802)	316	21	8.08	+	2.60	1.27E-04	2.30E-03
+chloroplast thylakoid membrane (GO:0009535)	359	23	9.18	+	2.51	1.64E-04	2.65E-03
+plastid thylakoid membrane (GO:0055035)	364	23	9.30	+	2.47	1.79E-04	2.80E-03
+Golgi apparatus subcompartment (GO:0098791)	394	24	10.07	+	2.38	1.76E-04	2.80E-03
+microbody (GO:0042579)	317	19	8.10	+	2.34	1.05E-03	1.31E-02
+peroxisome (GO:0005777)	317	19	8.10	+	2.34	1.05E-03	1.30E-02
+plant-type vacuole (GO:0000325)	788	47	20.14	+	2.33	3.56E-07	1.29E-05
+membrane protein complex (GO:0098796)	607	36	15.52	+	2.32	7.90E-06	2.02E-04
+cytoplasmic vesicle (GO:0031410)	732	43	18.71	+	2.30	1.62E-06	4.98E-05
+thylakoid (GO:0009579)	546	32	13.96	+	2.29	3.28E-05	6.73E-04
+intracellular vesicle (GO:0097708)	734	43	18.76	+	2.29	1.67E-06	4.99E-05
+plant-type cell wall (GO:0009505)	376	22	9.61	+	2.29	5.13E-04	6.98E-03
+vesicle (GO:0031982)	829	48	21.19	+	2.27	4.21E-07	1.42E-05
+endosome (GO:0005768)	419	24	10.71	+	2.24	5.17E-04	6.93E-03
+plastid membrane (GO:0042170)	492	28	12.58	+	2.23	1.58E-04	2.59E-03
+apoplast (GO:0048046)	299	17	7.64	+	2.22	2.97E-03	3.34E-02
+organelle subcompartment (GO:0031984)	1150	64	29.40	+	2.18	2.47E-08	1.08E-06
+chloroplast thylakoid (GO:0009534)	453	25	11.58	+	2.16	5.27E-04	6.98E-03
+plastid thylakoid (GO:0031976)	456	25	11.66	+	2.14	5.66E-04	7.40E-03
+ribonucleoprotein complex (GO:1990904)	675	37	17.25	+	2.14	4.10E-05	8.25E-04
+plastid envelope (GO:0009526)	863	47	22.06	+	2.13	3.61E-06	9.70E-05
+bounding membrane of organelle (GO:0098588)	644	35	16.46	+	2.13	8.11E-05	1.52E-03
+vacuole (GO:0005773)	1085	58	27.74	+	2.09	3.22E-07	1.20E-05
+cell wall (GO:0005618)	568	29	14.52	+	2.00	7.41E-04	9.46E-03
+cytosol (GO:0005829)	2703	137	69.10	+	1.98	2.81E-14	2.67E-12
+transferase complex (GO:1990234)	696	35	17.79	+	1.97	2.57E-04	3.85E-03
+external encapsulating structure (GO:0030312)	587	29	15.01	+	1.93	1.44E-03	1.71E-02
+plasma membrane (GO:0005886)	3077	152	78.66	+	1.93	6.23E-15	6.52E-13
+chloroplast envelope (GO:0009941)	612	30	15.64	+	1.92	1.16E-03	1.41E-02
+Golgi apparatus (GO:0005794)	1171	57	29.93	+	1.90	8.25E-06	2.06E-04
+intracellular organelle lumen (GO:0070013)	1080	52	27.61	+	1.88	2.39E-05	5.32E-04
+membrane-enclosed lumen (GO:0031974)	1080	52	27.61	+	1.88	2.39E-05	5.21E-04
+organelle lumen (GO:0043233)	1080	52	27.61	+	1.88	2.39E-05	5.11E-04
+cell periphery (GO:0071944)	3621	173	92.56	+	1.87	7.69E-16	8.94E-14
+protein-containing complex (GO:0032991)	2983	141	76.25	+	1.85	2.09E-12	1.21E-10
+organelle membrane (GO:0031090)	1571	74	40.16	+	1.84	1.14E-06	3.62E-05
+catalytic complex (GO:1902494)	1169	55	29.88	+	1.84	3.00E-05	6.28E-04
+membrane (GO:0016020)	5028	236	128.53	+	1.84	1.80E-21	1.88E-18
+endomembrane system (GO:0012505)	2351	109	60.10	+	1.81	3.88E-09	1.93E-07
+nuclear lumen (GO:0031981)	911	42	23.29	+	1.80	4.20E-04	5.94E-03
+intracellular non-membrane-bounded organelle (GO:0043232)	1622	74	41.46	+	1.78	2.66E-06	7.73E-05
+non-membrane-bounded organelle (GO:0043228)	1622	74	41.46	+	1.78	2.66E-06	7.52E-05
+envelope (GO:0031975)	1259	57	32.18	+	1.77	5.74E-05	1.13E-03
+organelle envelope (GO:0031967)	1259	57	32.18	+	1.77	5.74E-05	1.11E-03
+endoplasmic reticulum (GO:0005783)	1079	48	27.58	+	1.74	3.91E-04	5.61E-03
+plastid (GO:0009536)	5269	192	134.69	+	1.43	2.09E-07	8.42E-06
+chloroplast (GO:0009507)	4869	171	124.46	+	1.37	1.35E-05	3.15E-04
+cytoplasm (GO:0005737)	14146	481	361.61	+	1.33	2.37E-19	1.24E-16
+nucleus (GO:0005634)	10148	310	259.41	+	1.20	1.22E-04	2.23E-03
+intracellular organelle (GO:0043229)	18907	573	483.31	+	1.19	4.55E-14	3.67E-12
+organelle (GO:0043226)	18956	574	484.56	+	1.18	4.26E-14	3.72E-12
+membrane-bounded organelle (GO:0043227)	18744	566	479.15	+	1.18	4.21E-13	2.94E-11
+intracellular membrane-bounded organelle (GO:0043231)	18687	564	477.69	+	1.18	6.42E-13	4.20E-11
+intracellular anatomical structure (GO:0005622)	20603	619	526.67	+	1.18	1.13E-17	3.95E-15
+cellular anatomical entity (GO:0110165)	23516	663	601.13	+	1.10	2.51E-13	1.88E-11
+cellular_component (GO:0005575)	24427	669	624.42	+	1.07	5.93E-09	2.70E-07
+Unclassified (UNCLASSIFIED)	3035	33	77.58	-	.43	5.93E-09	2.82E-07
