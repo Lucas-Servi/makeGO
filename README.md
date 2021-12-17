@@ -1,5 +1,8 @@
 makeGO
 ==========
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
+
 
 Plot **Fold Enrichment (FE)** from the PantherDB (http://go.pantherdb.org) GO (Gene Ontology) output into a **Bubble Plot** (saved as a high dpi .pdf file).
 
