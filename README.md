@@ -1,9 +1,38 @@
 makeGO
 ==========
 
-Plot Fold Enrichment (FE) from the PantherDB (http://go.pantherdb.org/index.jsp) GO output.
+Plot **Fold Enrichment (FE)** from the PantherDB (http://go.pantherdb.org) GO (Gene Ontology) output into a **Bubble Plot**.
 
-## How to use the script
+
+# Installation Guide:
+
+### Install from Github
+```
+git clone https://github.com/Lucas-Servi/makeGO.git
+cd makeGO
+```
+- `sudo`, if required
+
+# System Requirements
+## Hardware requirements
+`makeGO` package requires only a standard computer with enough RAM to support the in-memory operations.
+
+## Software requirements
+### OS Requirements
+The package has been tested on the following systems:
++ Linux: Ubuntu 18.04+
+
+### Python Dependencies
+`makeGO` depends on:
+
+```
+matplotlib
+numpy
+pandas
+seaborn
+```
+
+# How to use
 
 This script runs on terminal with the following parameters:
 ```
@@ -17,7 +46,7 @@ python3 GO_plot.py -i <input-file.txt> <input-file.txt> <input-file.txt> -names 
 - **-fdr** | **-fdr-treshold** (optional - default=0.01): sets the FDR treshold of the GO groups.
 
 
-### AUTHOR/SUPPORT
+# AUTHOR/SUPPORT
 
 Lucas Servi, lucasservi@gmail.com </br>
 
