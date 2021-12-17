@@ -31,6 +31,8 @@ numpy
 pandas
 seaborn
 ```
+Any of this libraries can be installed by using  ``` pip install <library name> ```
+
 
 # How to use
 
