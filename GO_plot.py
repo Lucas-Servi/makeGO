@@ -64,8 +64,8 @@ def parse_arguments():
                         help="Space separated files from GO.")
     parser.add_argument("-names", dest="set_names", action='append', nargs='+',
                         help="Space separated set names.")
-    parser.add_argument("-top", dest="top_FE", action='store', nargs='?', default=10,
-                        help="Limit the plot to the top N Fold Enrichment changes (Over/Under). Default = 10")
+    parser.add_argument("-top", dest="top_FE", type=int, default=10,
+                        help="Limit the plot to the top N Fold Enrichment changes. Default: 10")
     parser.add_argument("-fdr", dest="fdr", action='store', nargs='?', default=0.01,
                         help="Sets the FDR Treshold to filter data. Default = 0.01")
     parser.add_argument("-o", dest="output_file", nargs='+',
